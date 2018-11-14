@@ -1,2 +1,2 @@
 # bash
-bash script
+this repository include useful bash script
