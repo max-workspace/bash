@@ -25,4 +25,3 @@ END{
 }' | sort -nrk 2 | head
 
 rm /tmp/cpu_usage.$$
-
