@@ -5,7 +5,7 @@
 # checkout filePath. if not exit creat
 function checkoutFilePath()
 {
-    fileDir=$(dirname $1)
+    local fileDir=$(dirname $1)
     [ ! -d ${fileDir} ] && mkdir -p ${fileDir}
     [ ! -f $1 ] && touch $1
     return 0
